@@ -5,7 +5,7 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-const config = require('./config')
+const config = require('../config')
 var md5 = require('blueimp-md5');
 
 // 创建一个路由容器
